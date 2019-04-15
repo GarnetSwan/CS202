@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Lesson 3 :: Form &amp; Multimedia</title>
+</head>
+
+<body>
+    <!-- Container/Container0fluide -->
+    <div class="container">
+        <h2>Forms</h2>
+        <!-- Action - Where you are sending your information, method - POST/GET, autocomplete, onsubmit -->
+        <form action="welcome.html" method="POST" autocomplete="">
+            <label for="name">Name</label><br>
+            <input type="text" name="name" id="n1"><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email"><br>
+
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="pw"><br>
+
+            <label for="gender"></label>
+            Male <input type="radio" name="gender" id="">
+            Female <input type="radio" name="gender" id="">
+
+            <br><br>
+
+            <label for="city">City</label><br>
+            <select name="city" id="city">
+                <option value="null">Select a City</option>
+                <option value="sea">Seattle</option>
+                <option value="tac">Tacoma</option>
+                <option value="spo">Spokane</option>
+                <option value="bell">Bellingham</option>
+                <option value="oly">Olympia</option>
+            </select><br>
+
+            <br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <h2>Audio</h2>
+        <audio type="audio/mp3" src="audio/audio.mp3" controls></audio>
+        <h2>Video</h2>
+        <video type="video/mp4" src="videos/video.mp4" controls></video>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
